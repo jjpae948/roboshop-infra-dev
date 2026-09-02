@@ -1,6 +1,6 @@
 #!/bin/bash
 
-component=$1 #mongodb
+component=$1 #redis
 environment=$2 #dev
 dnf install ansible -y
 mkdir -p /var/log/roboshop/
