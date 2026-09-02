@@ -75,5 +75,6 @@ resource "terraform_data" "redis" {
       "chmod +x /tmp/bootstrap.sh",
       "sudo sh /tmp/bootstrap.sh redis ${var.environment}"
     ]
-  }
+  }    
+}
     
